@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React-Learning</title>
+</head>
+<body>
+<div id="root">
+   <!-- we need h1 tag here    -->
+</div>
+<!-- Using JS script tag should be before body tag-->
+<script>
+
+//cerate an elemnt first
+
+const heading = document.createElement("h1") // creating heading elemnt and storing it in variable 
+heading.innerHTML="Hello from React" // assigning inner HTML value 
+console.log(heading) // checking output : <h1>Hello from react</h1>
+
+//informing JS where to upt our h1 tag 
+
+const root = document.getElementById("root") // taking root from html file
+root.appendChild(heading) //apending child 
+
+
+
+
+</script>
+</body>
+</html>
