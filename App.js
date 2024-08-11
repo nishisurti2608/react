@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 //nested elements
 /* <div id = "parent">
     <div id ="child">
