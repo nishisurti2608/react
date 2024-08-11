@@ -2,9 +2,11 @@
   "name": "react",
   "version": "1.0.0",
   "description": "Namaste react learning",
- 
+
   "scripts": {
-    "test": "jest"
+    "start":"parcel index.html",
+    "test": "jest",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -23,5 +25,8 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }
