@@ -7,4 +7,4 @@ const App = () => {
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root")); // taking root from html file
-root.render(<App />); //apending child
+root.render(<App />);

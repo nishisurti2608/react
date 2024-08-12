@@ -1,5 +1,6 @@
 import Logo from "./Logo";
 import LocationSelector from "./LocationSlector";
+import Navigation from "./Navigation";
 
 const Header = () => {
   return (
@@ -8,9 +9,8 @@ const Header = () => {
         <div className="w-24 border border-blue">
           <Logo />
         </div>
-        <div>
-          <LocationSelector />
-        </div>
+        <LocationSelector />
+        <Navigation />
       </div>
     </header>
   );
