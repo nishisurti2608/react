@@ -6,6 +6,7 @@ const Logo = () => {
       height="49"
       width="34"
       fill="#fc8019"
+      cursor="pointer"
     >
       <path
         fill-rule="evenodd"
